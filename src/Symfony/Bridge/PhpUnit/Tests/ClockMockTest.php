@@ -79,4 +79,8 @@ class ClockMockTest extends TestCase
     {
         $this->assertSame(1234567890125000000, hrtime(true));
     }
+
+    public function testH() {
+        $this->setUp();
+    }
 }
